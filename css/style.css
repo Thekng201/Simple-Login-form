@@ -1,0 +1,76 @@
+body {
+  background-color: #bdf1f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85em;
+  color: rgba(66, 66, 66, 1);
+  height: 100vh;
+  width: 100vw;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 75%;
+  background-color: #f2fcfc;
+  display: flex;
+  border-radius: 20px;
+}
+p {
+  line-height: 1.7;
+}
+
+img {
+  width: 100px;
+  margin: 0% auto;
+  display: block;
+}
+
+button {
+  background-color: #3161a3;
+  border: 0;
+  color: white;
+  padding: 15px 28px;
+  border-radius: 50px;
+  transition: 0.12s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.agreement {
+  font-size: 12px;
+  margin: 10px 0;
+}
+section,
+form {
+  width: 50%;
+  padding: 50px 70px;
+  box-shadow: 1px 0 #ccc;
+}
+
+section {
+  text-align: center;
+}
+
+.signup-form {
+  height: 0.5;
+  background: #fff;
+  background: linear-gradient(180deg, transparent, #ccc, transparent);
+  background-repeat: repeat-y;
+  background-size: 1px auto;
+}
+input[type="email"],
+input[type="password"] {
+  width: 200px;
+  background-color: #f2fcfc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 1px #ccc;
+  font-size: 12px;
+}
